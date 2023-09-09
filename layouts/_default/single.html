@@ -1,6 +1,10 @@
 {{ define "main" }}
 
-  {{ partial "single/single.html" . }}
+  {{ if .Params.navbar }}
+  {{ partial "navbar.html" . }}
+  {{ partial "navbar-clone.html" . }}
+  {{ end }}
+  {{ partial "single/content.html" . }}
 
   {{ if .Params.include_footer }}
   {{ partial "footer.html" . }}
