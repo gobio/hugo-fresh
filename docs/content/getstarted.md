@@ -25,7 +25,7 @@ hugo new site my-site && cd my-site
 hugo mod init YOUR_MODULE_NAME
 
 # Remove the default config
-rm config.toml
+rm hugo.toml
 
 # Fetch the example config
 curl -O https://raw.githubusercontent.com/StefMa/hugo-fresh/master/exampleSite/hugo.yaml
@@ -44,3 +44,5 @@ Checkout the [Landing page docs](../landingpage) to customize the landing page.
 There is also the option to create single pages. Check the [Single page docs](../singlepage) for more.
 
 Have some troubles? Check our [troubleshooting](../troubleshooting) guide.
+
+Interested in changed colors? Checkout the [Deep modifications](../deepmodifications) guide.
